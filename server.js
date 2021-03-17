@@ -57,10 +57,6 @@ const wsServer = new WS.Server({ server });
 
 const clients = [];
 
-// router.get("/index", async (ctx, next) => {
-//   console.log("get index");
-// });
-
 router.get("/users", async (ctx, next) => {
   console.log("get users");
   ctx.response.body = clients;
