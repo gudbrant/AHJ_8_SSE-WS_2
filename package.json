@@ -1,0 +1,31 @@
+{
+  "name": "ahj_8_sse-ws_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "yarn",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": "git+https://github.com/gudbrant/AHJ_8_SSE-WS_2.git",
+  "author": "gudbrant <gudbrant@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gudbrant/AHJ_8_SSE-WS_2/issues"
+  },
+  "homepage": "https://github.com/gudbrant/AHJ_8_SSE-WS_2#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.3"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
